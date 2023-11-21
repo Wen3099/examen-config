@@ -7,8 +7,8 @@ spring:
 
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    eureka.client.registerWithEureka=false
+    eureka.client.fetchRegistry=false
     registry-fetch-interval-seconds: 5
     healthcheck:
       enabled: true
